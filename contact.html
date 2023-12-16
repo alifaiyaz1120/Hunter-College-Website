@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="hunterweb.css">
+    <title>Contact Us</title>
+	<meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" >
+</head>
+<body>
+    <nav>
+         <div class = "logo">
+             <a href = "hunterhome.html">
+                 <img src = "logo_banner.png" alt = "">
+             </a>
+         </div>
+         <ul class = "navbar-links">
+             <li><a href = "about.html" style="text-decoration:none"><h1>About</h1></a></li>
+             <li><a href = "courses.html" style="text-decoration:none"><h1>Courses</h1></a></li>
+             <li><a href = "contact.html" style="text-decoration:none"><h1>Contact Us </h1></a></li>
+         </ul>
+    </nav>
+</body>
+<body>
+        <div>
+            <div class = "contact-title">
+                <h1> Contact Us </h1>
+        </div>
+        <div class="container">
+            <form action="hunterhome.html">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your CUNY email.." required>
+              
+              <label for="reason-for-contact">Reason For Contact</label>
+              <select id="reason-for-contact" name="reason-for-contact">
+                <option value="admission">Admission</option>
+                <option value="grade">Grade</option>
+                <option value="class">Class</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <div class = "footer">
+            <div class = "footer-image">
+              <a href = "https://www.cuny.edu/">
+                <img src = "cuny_logo.gif" align = "margin-right" width=  "120" height= "50">
+             </a>
+            </div>
+        </div>
+</body>
+</html>

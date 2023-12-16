@@ -1,0 +1,305 @@
+/*
+	Hunter Purple: #592998;
+	Hunter Yellow: #faed5d;
+*/
+
+h1 {
+	color: #592998;
+	background: #faed5d;
+	text-align: center;
+}
+body{
+    margin: 0px;
+    font: 1em sans-serif;
+}
+nav{
+    width:100%;
+    height: -4vh;
+    display:flex;
+    align-items: center;
+    background-color: #faed5d;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.navbar-links
+{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.navbar .navbar-links
+{
+    display: inline block;
+    padding: 20px 10px;
+}
+.logo img {
+    flex: 1; 
+    height: 100%;
+    width: 100%;
+
+}
+.logo{
+    height: 140px;
+}
+.big-hunter-logo{
+	width: 100%;
+	height: auto;
+}
+.welcome h1{
+	font-style: normal;
+	background: white;
+	font-size: 30px;
+	word-spacing: normal;
+	text-align: center;
+	padding: 10px;
+}
+.welcome p{
+	font-style: normal;
+	background: white;
+	font-size: 20px;
+	word-spacing: normal;
+	text-align: left;
+	padding: 20px;
+}
+.announcement h1{
+	font-style: normal;
+	background: white;
+	font-size: 30px;
+	word-spacing: normal;
+	text-align: center;
+}
+.announcement p, .announcement-li{
+	font-style: normal;
+	background: white;
+	font-size: 20px;
+	word-spacing: normal;
+	text-align: left;
+	padding: 20px;
+    margin-bottom: 40px;
+}
+.footer {
+    background-color:#808080;
+    position: relative;
+    color: white;
+    bottom: 0%;
+    height: 75px;
+    clear: both;
+}
+.footer-table{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:70px;  
+    background:gray;
+}
+.footer-image{
+    position: absolute;
+    right: 12px;
+    top: 10%;
+}
+
+.about-title h1{
+	font-style: normal;
+	background: white;
+	font-size: 28px;
+	word-spacing: normal;
+	text-align: center;
+    padding-top: 80px;
+}
+.about-title h2{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    font-style: normal;
+    background: white;
+    font-size: 23px;
+}
+.about-title p{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    font-style: normal;
+    background: white;
+    font-size: 18px;
+}
+.about-title ul{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    font-style: normal;
+    background: white;
+    font-size: 18px;
+    padding-bottom: 103px;
+}
+.course-title h1{
+    position: relative;
+    left: 20px;
+    width: 500px;
+    font-style: normal;
+    background: white;
+	font-size: 30px;
+    padding-top: 250px;
+}
+table {
+    position: relative;
+    left: 150px;
+    width: 80%;
+    border: 0px solid gray;
+    border-collapse: collapse;
+    padding-bottom: 103px;
+}
+th, td 
+    {
+    text-align: left;
+    border: 1px solid lightgray;
+    padding: 10px;
+
+    }
+tr:nth-child(even){
+    background-color: #D3D3D3 
+}
+.contact-title h1
+{
+    font-style: normal;
+	background: white;
+	font-size: 30px;
+	word-spacing: normal;
+	text-align: center;
+    padding-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+
+  input[type=submit] {
+    background-color: #592998;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #592998;
+  }
+  
+  .container {
+    margin-left: 15%;
+    margin-right:15%;
+    width: 70%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 70px;
+    
+  }
+/* Mobile Phone Screen - Portrait & Landscape */
+@media screen and (max-width: 640px){
+	/* Mobile Responsiveness CSS here */
+    body{
+        margin: 0px;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: white;
+        padding: 0%;
+    }
+    .navbar-links{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90vw;
+        padding-inline-start: 15px;
+        font-size: 15px;
+    }
+    .logo img
+    {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    h1{
+        background-color: white;
+    }
+    .welcome h1{
+        font-size: 25px;
+    }
+    .welcome p{
+        font-size: 15px;
+
+    }
+    .announcement h1{
+        font-size: 25px;
+    }
+    .announcement p, .announcement-li{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .about-title h1{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .about-title h2{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .about-title p{
+        font-size: 15px;
+    }
+    .about-title ul{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: -1rem;      
+    }
+    .footer-table{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: -1rem;    
+    }
+    table{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        margin-bottom: 120px;
+    }
+    .course-title h1{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .contact-title h1{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .container{
+        margin-left: 10%;
+        margin-right:10%;
+        width: 80%;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    
+}
