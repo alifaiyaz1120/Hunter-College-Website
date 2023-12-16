@@ -1,6 +1,15 @@
 ## Assignment 1
 ### Due Date: 09/26/22 - 5:00pm EST
 
+
+
+
+Screenshot 2023-12-16 at 4.10.18 PM.png
+
+Screenshot 2023-12-16 at 4.10.35 PM.png
+
+
+
 *Assignment deadlines are strictly enforced, please do try to hand in your assignments on time, and I will honor your commitment by grading them and giving feedback in a timely manner. I do understand that sometimes there may be emergencies that we need to attend to. Please do reach out to me as soon as possible if you know you won't be able to make a deadline.*
 
 ---
@@ -227,3 +236,5 @@ As a DEVELOPER when I checkout the source code for this assignment
 I should be able to see a logical folder structure
 AND I should be able to navigate and read through this code 
 ```
+
+
