@@ -229,8 +229,8 @@ AND I should be able to navigate and read through this code
 ```
 
 
-<img width="500" alt="Screenshot 2023-12-16 at 4 10 18 PM" src="https://github.com/alifaiyaz1120/Hunter-College-Website-/assets/119764873/76e6c1e1-107a-4df5-978e-9cd9c4e0de8a">
-<img width="500" alt="Screenshot 2023-12-16 at 4 10 35 PM" src="https://github.com/alifaiyaz1120/Hunter-College-Website-/assets/119764873/62804a4b-f366-4a7d-9a37-e1ccbecb1480">
-<img width="500" alt="Screenshot 2023-12-16 at 4 11 11 PM" src="https://github.com/alifaiyaz1120/Hunter-College-Website-/assets/119764873/3566badd-ac94-457a-9e17-66bd1a30ce9d">
+<img width="1000" alt="Screenshot 2023-12-16 at 4 10 18 PM" src="https://github.com/alifaiyaz1120/Hunter-College-Website-/assets/119764873/76e6c1e1-107a-4df5-978e-9cd9c4e0de8a">
+<img width="1000" alt="Screenshot 2023-12-16 at 4 10 35 PM" src="https://github.com/alifaiyaz1120/Hunter-College-Website-/assets/119764873/62804a4b-f366-4a7d-9a37-e1ccbecb1480">
+<img width="1000" alt="Screenshot 2023-12-16 at 4 11 11 PM" src="https://github.com/alifaiyaz1120/Hunter-College-Website-/assets/119764873/3566badd-ac94-457a-9e17-66bd1a30ce9d">
 
 
