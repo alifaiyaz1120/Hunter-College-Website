@@ -1,4 +1,5 @@
 # Hunter CS Department Website Recreation
+## Created by: Ali Faiyaz 
 
 ## Project Overview
 
